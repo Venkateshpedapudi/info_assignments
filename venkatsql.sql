@@ -1,3 +1,5 @@
+6 JOINS
+-------------------------------------------------------------------------------------------
 SQL> select l.location_id,l.street_address,l.city,l.state_province,c.country_id
   2   from locations l, countries c where l.country_id=c.country_id;
 
